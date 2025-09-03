@@ -83,8 +83,6 @@ object BlazeSolver {
 
             val message = formatPbPuzzleMessage("Blaze", completionTime, previousBest)
 
-            sendPartyMessage(message)
-
             clickableChat(
                 msg = message,
                 cmd = "/na copy ${message.removeFormatting()}",
