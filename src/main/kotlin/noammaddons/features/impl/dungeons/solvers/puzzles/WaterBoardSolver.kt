@@ -173,8 +173,6 @@ object WaterBoardSolver {
 
             val message = formatPbPuzzleMessage("Water Board", completionTime, previousBest)
 
-            sendPartyMessage(message)
-
             clickableChat(
                 msg = message,
                 cmd = "/na copy ${message.removeFormatting()}",
