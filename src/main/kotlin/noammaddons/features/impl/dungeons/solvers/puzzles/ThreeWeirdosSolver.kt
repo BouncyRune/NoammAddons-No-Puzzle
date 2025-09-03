@@ -128,8 +128,6 @@ object ThreeWeirdosSolver {
 
         val message = formatPbPuzzleMessage("Three Weirdos", completionTime, previousBest)
 
-        sendPartyMessage(message)
-
         clickableChat(
             msg = message,
             cmd = "/na copy ${message.removeFormatting()}",
