@@ -105,8 +105,6 @@ object BoulderSolver {
 
                 val message = formatPbPuzzleMessage("Boulder", completionTime, previousBest)
 
-                sendPartyMessage(message)
-
                 clickableChat(
                     msg = message,
                     cmd = "/na copy ${message.removeFormatting()}",
