@@ -122,8 +122,6 @@ object TeleportMazeSolver {
 
             val message = formatPbPuzzleMessage("Teleport Maze", completionTime, previousBest)
 
-            sendPartyMessage(message)
-
             clickableChat(
                 msg = message,
                 cmd = "/na copy ${message.removeFormatting()}",
