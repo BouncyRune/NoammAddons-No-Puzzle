@@ -113,8 +113,6 @@ object CreeperBeamSolver {
 
         val message = formatPbPuzzleMessage("Creeper Beams", completionTime, previousBest)
 
-        sendPartyMessage(message)
-
         clickableChat(
             msg = message,
             cmd = "/na copy ${message.removeFormatting()}",
